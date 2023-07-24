@@ -1,0 +1,40 @@
+{
+  "name": "exicubeapps",
+  "version": "3.4.0",
+  "description": "Exicube App Solutions",
+  "scripts": {
+    "app": "yarn workspace mobile-app start",
+    "app:publish": "cd mobile-app && eas update",
+    "app:build-ios": "cd mobile-app && eas build --platform ios --profile production",
+    "app:build-android": "cd mobile-app && eas build --platform android --profile production",
+    "app:build-android-apk": "cd mobile-app && eas build --platform android --profile preview",
+    "app:build-ios-sim": "cd mobile-app && eas build -p ios --profile simulator",
+    "app:build-dev-client": "cd mobile-app && eas build --profile development",
+    "app:submit": "cd mobile-app && eas submit",
+    "web": "yarn workspace web-app start",
+    "web:deploy": "yarn workspace web-app build && firebase deploy --only hosting",
+    "deploy": "yarn workspace web-app build && firebase deploy && exicube initialize",
+    "postinstall": "patch-package && exicube install"
+  },
+  "workspaces": [
+    "mobile-app",
+    "web-app",
+    "functions",
+    "common"
+  ],
+  "author": "Exicube App Solutions (OPC) Private Limited",
+  "private": true,
+  "dependencies": {
+    "concurrently": "7.0.0",
+    "crypto-js": "^4.1.1",
+    "exicube-cli": "1.6.0",
+    "firebase-tools": "^12.4.0",
+    "fs-extra": "10.0.0",
+    "node-fetch": "2.6.7",
+    "open": "^8.4.0",
+    "patch-package": "6.4.7"
+  },
+  "resolutions": {
+    "@expo/config-plugins": "6.0.1"
+  }
+}

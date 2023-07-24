@@ -1,0 +1,17 @@
+diff --git a/node_modules/react-native-webview/lib/WebView.android.js b/node_modules/react-native-webview/lib/WebView.android.js
+index 6bf6a67..39e9f81 100644
+--- a/node_modules/react-native-webview/lib/WebView.android.js
++++ b/node_modules/react-native-webview/lib/WebView.android.js
+@@ -91,10 +91,10 @@ var WebViewComponent = forwardRef(function (_a, ref) {
+     var webViewContainerStyle = [styles.container, containerStyle];
+     if (typeof source !== "number" && source && 'method' in source) {
+         if (source.method === 'POST' && source.headers) {
+-            console.warn('WebView: `source.headers` is not supported when using POST.');
++            //console.warn('WebView: `source.headers` is not supported when using POST.');
+         }
+         else if (source.method === 'GET' && source.body) {
+-            console.warn('WebView: `source.body` is not supported when using GET.');
++            //console.warn('WebView: `source.body` is not supported when using GET.');
+         }
+     }
+     var NativeWebView = (nativeConfig === null || nativeConfig === void 0 ? void 0 : nativeConfig.component) || RNCWebView;

@@ -1,0 +1,113 @@
+{
+	"app_name": "Your App Name",
+	"app_description": "Your App Description Here",
+	"app_identifier": "com.something.app",
+	"ios_app_version": "1.0.0",
+	"android_app_version": "100",
+	"facebookAppId": "12345",
+	"facebookClientToken": "XXXXXXXXXXXXXXX",
+	"firebaseProjectId": "XXXXXXXXXXXXXXX",
+	"googleApiKeys": {
+		"ios": "XXXXXXXXXXXXXXX",
+		"android": "XXXXXXXXXXXXXXX",
+		"web": "XXXXXXXXXXXXXXX",
+		"server": "XXXXXXXXXXXXXXX"
+	},
+	"expo_owner": "XXXXXXXXXXXXXXX",
+	"expo_slug": "XXXXXXXXXXXXXXX",
+	"expo_project_id": "XXXXXXXXXXXXXXX",
+	"admin_email": "XXXXXXXXXXXXXXX",
+	"purchase_code": "XXXXXXXXXXXXXXX",
+	"paymentMethods": {
+		"braintree": {
+			"active": false,
+			"testing": true,
+			"merchantId": "XXXXXXXXXXXXXXX",
+			"publicKey": "XXXXXXXXXXXXXXX",
+			"privateKey": "XXXXXXXXXXXXXXX"
+		},
+		"culqi": {
+			"active": false,
+			"PUBLIC_KEY": "XXXXXXXXXXXXXXX",
+			"SECURE_KEY": "XXXXXXXXXXXXXXX"
+		},
+		"flutterwave": {
+			"active": false,
+			"FLUTTERWAVE_PUBLIC_KEY": "XXXXXXXXXXXXXXX",
+			"FLUTTERWAVE_SECRET_KEY": "XXXXXXXXXXXXXXX"
+		},
+		"liqpay": {
+			"active": false,
+			"public_key": "XXXXXXXXXXXXXXX",
+			"private_key": "XXXXXXXXXXXXXXX"
+		},
+		"mercadopago": {
+			"active": false,
+			"public_key": "XXXXXXXXXXXXXXX",
+			"access_token": "XXXXXXXXXXXXXXX"
+		},
+		"payfast": {
+			"active": false,
+			"testingMode": true,
+			"PAYFAST_MEWRCHANT_ID": "XXXXXXXXXXXXXXX",
+			"PAYFAST_MERCHANT_KEY": "XXXXXXXXXXXXXXX",
+			"passPhrase": null
+		},
+		"paypal": {
+			"active": false,
+			"testing": true,
+			"paypal_client_id": "XXXXXXXXXXXXXXX",
+			"paypal_secret": "XXXXXXXXXXXXXXX"
+		},
+		"paystack": {
+			"active": false,
+			"PAYSTACK_PUBLIC_KEY": "XXXXXXXXXXXXXXX",
+			"PAYSTACK_SECRET_KEY": "XXXXXXXXXXXXXXX"
+		},
+		"paytm": {
+			"active": false,
+			"testing": true,
+			"PAYTM_MEWRCHANT_ID": "XXXXXXXXXXXXXXX",
+			"PAYTM_MERCHANT_KEY": "XXXXXXXXXXXXXXX"
+		},
+		"payulatam": {
+			"active": false,
+			"testing": true,
+			"merchantId": 111111,
+			"apiKey": "XXXXXXXXXXXXXXX",
+			"accountId": 111111
+		},
+		"securepay": {
+			"active": false,
+			"testing": true,
+			"MERCHANT_CODE": "XXXXXXXXXXXXXXX",
+			"TXN_PASSWORD": "XXXXXXXXXXXXXXX"
+		},
+		"stripe": {
+			"active": false,
+			"stripe_private_key": "XXXXXXXXXXXXXXX",
+			"stripe_public_key": "XXXXXXXXXXXXXXX"
+		},
+		"squareup": {
+			"active": false,
+			"testing": true,
+			"APPLICATION_ID": "XXXXXXXXXXXXXXX",
+			"LOCATION_ID": "XXXXXXXXXXXXXXX",
+			"ACCESS_TOKEN": "XXXXXXXXXXXXXXX"
+		},
+		"wipay": {
+			"active": false,
+			"testing": true,
+			"ACCOUNT_NO": "XXXXXXXXXXXXXXX",
+			"API_KEY": "XXXXXXXXXXXXXXX"
+		},
+		"razorpay": {
+			"active": false,
+			"KEY_ID" : "XXXXXXXXXXXXXXX",
+			"KEY_SECRET" :"XXXXXXXXXXXXXXX"
+		},
+		"test": {
+			"active": true
+		}
+	}
+}
